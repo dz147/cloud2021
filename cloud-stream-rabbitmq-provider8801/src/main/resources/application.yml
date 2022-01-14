@@ -14,8 +14,8 @@ spring:
               rabbitmq:
                 host: localhost
                 port: 5672
-                username: dzmq
-                password: password
+                username: root
+                password: xiaoxiang@
       bindings: # 服务的整合处理
         output: # 这个名字是一个通道的名称
           destination: studyExchange # 表示要使用的Exchange名称定义
