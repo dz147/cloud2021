@@ -4,14 +4,12 @@ server:
 spring:
   application:
     name: cloud-payment-service #服务名称
-  zipkin:
-    base-url: http://localhost:9411
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource  #当前数据源操作类型
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/my-cloud?characterEncoding=utf8&useSSL=false&serverTimezone=UTC&rewriteBatchedStatements=true
     username: root
-    password: password
+    password: 123456
 
 mybatis:
   mapper-locations: classpath:mapper/*.xml
